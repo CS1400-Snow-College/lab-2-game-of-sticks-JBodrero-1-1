@@ -67,8 +67,16 @@ Players will take turns adding between 1 and 5 mL of liquid to the beaker.
 The player that adds the last milliliter loses.
 "
 );
+    for (int i = 1; i <= maxVol - amount; i++)  // Draw filling beaker.
 
-
+    {
+        Console.WriteLine(" |   |");
+    }
+    for (int j = 1; j <= amount; j++)
+    {
+        Console.WriteLine(" | * |");
+    }   
+    Console.WriteLine(" ----");
 }
 while (amount < 30);
 
