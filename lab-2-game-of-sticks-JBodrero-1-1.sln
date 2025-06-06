@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab-2-game-of-sticks-JBodrero-1-1", "lab-2-game-of-sticks-JBodrero-1-1.csproj", "{F9C88A66-C620-5C4B-D60C-672D62B9BACD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9C88A66-C620-5C4B-D60C-672D62B9BACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9C88A66-C620-5C4B-D60C-672D62B9BACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9C88A66-C620-5C4B-D60C-672D62B9BACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9C88A66-C620-5C4B-D60C-672D62B9BACD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF318591-32C9-4927-AAB6-ECE564E421AB}
+	EndGlobalSection
+EndGlobal
