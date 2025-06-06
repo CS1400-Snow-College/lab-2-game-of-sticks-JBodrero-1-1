@@ -1,5 +1,6 @@
 ﻿//  Jonathan Bodrero
-// June 6, 2025
+//  Lab 3:  Beaker game
+//  June 6, 2025
 
 Console.Clear();  // Clear console and write instructions
 Console.WriteLine(
@@ -31,6 +32,14 @@ do
     do
     {
         Console.WriteLine($"The amount of liquid in the beaker is {amount} / {maxVol} ml.");
+        Console.WriteLine(" ------------------------------");    // Draw the filling beaker
+        Console.Write("|");
+        for (int i = 1; i <= amount; i++)
+        {
+            Console.Write("*");
+        }
+        Console.WriteLine("\n ------------------------------");
+
         Console.Write($"Player {playerNum}, how much liquid would you like to add? ");
         addInput = Console.ReadLine();
 
@@ -67,7 +76,7 @@ Players will take turns adding between 1 and 5 mL of liquid to the beaker.
 The player that adds the last milliliter loses.
 "
 );
-    for (int i = 1; i <= maxVol - amount; i++)  // Draw filling beaker.
+/*    for (int i = 1; i <= maxVol - amount; i++)  // Draw filling beaker.
 
     {
         Console.WriteLine(" |   |");
@@ -76,7 +85,7 @@ The player that adds the last milliliter loses.
     {
         Console.WriteLine(" | * |");
     }   
-    Console.WriteLine(" ----");
+    Console.WriteLine(" ----"); */
 }
 while (amount < 30);
 

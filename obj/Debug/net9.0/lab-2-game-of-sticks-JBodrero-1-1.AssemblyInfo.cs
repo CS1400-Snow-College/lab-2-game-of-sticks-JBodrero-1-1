@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab-2-game-of-sticks-JBodrero-1-1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ca0abeba65b86dbc2afd0d2923f051f18a6bc6a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3290181b592211b0dc17a25b400b208757bfbc1")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab-2-game-of-sticks-JBodrero-1-1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab-2-game-of-sticks-JBodrero-1-1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
