@@ -2,12 +2,14 @@
 // June 6, 2025
 
 Console.Clear();  // Clear console and write instructions
-Console.WriteLine(@"-------------------------------
+Console.WriteLine(
+@"-------------------------------
 - Welcome to the Beaker Game! -
 -------------------------------
-Players will take turns adding between 1 and 5 mL of liquid to the beaker.  
+Players will take turns adding between 1 and 5 mL of liquid to the beaker.
 The player that adds the last milliliter loses.
-");
+"
+);
 
 // Set inital parameters 
 int maxVol = 30;
@@ -56,10 +58,19 @@ do
     {
         playerNum = 1;
     }
-    //Console.Clear();
+    Console.Clear();
+    Console.WriteLine(
+@"-------------------------------
+- Welcome to the Beaker Game! -
+-------------------------------
+Players will take turns adding between 1 and 5 mL of liquid to the beaker.
+The player that adds the last milliliter loses.
+"
+);
 
 
 }
 while (amount < 30);
 
-Console.WriteLine($"/----------------\\\n| Player {playerNum} wins! |\n\\----------------/");  // Identify winner!
+Console.WriteLine($"The amount of liquid in the beaker is {amount} / {maxVol} ml.");  // End game & identify winner!
+Console.WriteLine($"/----------------\\\n| Player {playerNum} wins! |\n\\----------------/");  
